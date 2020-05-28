@@ -33,7 +33,7 @@ fileprivate extension NSAttributedString {
 		let style = NSMutableParagraphStyle()
 		style.alignment = .center
 
-		let attributes: [NSAttributedStringKey: Any] = [
+		let attributes: [NSAttributedString.Key: Any] = [
 			.font: NSFont.systemFont(ofSize: fontSize),
 			.paragraphStyle: style
 		]

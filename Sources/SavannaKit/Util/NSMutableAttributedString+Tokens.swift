@@ -16,7 +16,7 @@ import Foundation
 
 public extension NSMutableAttributedString {
 	
-	convenience public init(source: String, tokens: [Token], theme: SyntaxColorTheme) {
+    convenience init(source: String, tokens: [Token], theme: SyntaxColorTheme) {
 		
 		self.init(string: source)
 		
