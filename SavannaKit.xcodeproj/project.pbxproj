@@ -7,7 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
 		BE21904B2053318600BFB99A /* SyntaxTextViewLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE21904A2053318600BFB99A /* SyntaxTextViewLayoutManager.swift */; };
+=======
+		2C157AFA24C3891500D5BDD0 /* BoopToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C157AF924C3891500D5BDD0 /* BoopToken.swift */; };
+		2C157AFB24C38AB200D5BDD0 /* BoopToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C157AF924C3891500D5BDD0 /* BoopToken.swift */; };
+		2C157AFC24C38AB200D5BDD0 /* BoopLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2D6FF24C3886D0091DD26 /* BoopLexer.swift */; };
+		2C157AFE24C38AFC00D5BDD0 /* DefaultTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C157AFD24C38AFC00D5BDD0 /* DefaultTheme.swift */; };
+		2C157B0024C38B0E00D5BDD0 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C157AFF24C38B0E00D5BDD0 /* Colors.swift */; };
+		2C4FD0C0277BCEBF00443D72 /* InnerTextView+MultiLineEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4FD0BF277BCEBF00443D72 /* InnerTextView+MultiLineEditing.swift */; };
+		2C5AB3C92324A15D0060DCE9 /* LineRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5AB3C82324A15D0060DCE9 /* LineRulerView.swift */; };
+		2C7A093924C68C0800596D31 /* NewBoopLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A093724C68C0800596D31 /* NewBoopLexer.swift */; };
+		2C7B49F02285072300030962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B49EF2285072300030962 /* AppDelegate.swift */; };
+		2C7B49F22285072600030962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7B49F12285072600030962 /* Assets.xcassets */; };
+		2C7B49F52285072600030962 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7B49F32285072600030962 /* MainMenu.xib */; };
+		2C7B49FD2285085C00030962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B49FC2285085C00030962 /* ViewController.swift */; };
+		2C7B49FE22850B8300030962 /* SavannaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE15626E1EFE9E7C00EB3723 /* SavannaKit.framework */; };
+		2C9276C624C68D3500576B1F /* NewBoopLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A093724C68C0800596D31 /* NewBoopLexer.swift */; };
+		2C9276CA24C7B84100576B1F /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9276C924C7B84100576B1F /* PerformanceTests.swift */; };
+		2CD2D70024C3886E0091DD26 /* BoopLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2D6FF24C3886D0091DD26 /* BoopLexer.swift */; };
+		2CD2D70824C388910091DD26 /* AliceInWonderland.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2CD2D70624C388910091DD26 /* AliceInWonderland.txt */; };
+		2CD2D70924C388910091DD26 /* BoopGithub.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CD2D70724C388910091DD26 /* BoopGithub.html */; };
+>>>>>>> Stashed changes
 		BE21904C20533BEB00BFB99A /* SyntaxTextViewLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE21904A2053318600BFB99A /* SyntaxTextViewLayoutManager.swift */; };
 		BE4280382038C38900C8FE24 /* SyntaxTextView+TextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4280372038C38900C8FE24 /* SyntaxTextView+TextViewDelegate.swift */; };
 		BE4280392038C38E00C8FE24 /* SyntaxTextView+TextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4280372038C38900C8FE24 /* SyntaxTextView+TextViewDelegate.swift */; };
@@ -84,6 +105,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
+=======
+		2C157AF924C3891500D5BDD0 /* BoopToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoopToken.swift; sourceTree = "<group>"; };
+		2C157AFD24C38AFC00D5BDD0 /* DefaultTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTheme.swift; sourceTree = "<group>"; };
+		2C157AFF24C38B0E00D5BDD0 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2C4FD0BF277BCEBF00443D72 /* InnerTextView+MultiLineEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InnerTextView+MultiLineEditing.swift"; sourceTree = "<group>"; };
+		2C5AB3C82324A15D0060DCE9 /* LineRulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineRulerView.swift; sourceTree = "<group>"; };
+		2C7A093724C68C0800596D31 /* NewBoopLexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBoopLexer.swift; sourceTree = "<group>"; };
+		2C7B49ED2285072300030962 /* macOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7B49EF2285072300030962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C7B49F12285072600030962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C7B49F42285072600030962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2C7B49F62285072600030962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7B49F72285072600030962 /* macOS_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS_Example.entitlements; sourceTree = "<group>"; };
+		2C7B49FC2285085C00030962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C9276C924C7B84100576B1F /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PerformanceTests.swift; path = Sources/SavannaKitTests/PerformanceTests.swift; sourceTree = SOURCE_ROOT; };
+		2CD2D6FF24C3886D0091DD26 /* BoopLexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoopLexer.swift; sourceTree = "<group>"; };
+		2CD2D70624C388910091DD26 /* AliceInWonderland.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AliceInWonderland.txt; sourceTree = "<group>"; };
+		2CD2D70724C388910091DD26 /* BoopGithub.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BoopGithub.html; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		BE15626E1EFE9E7C00EB3723 /* SavannaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SavannaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2055211F1D53C00051EE97 /* Lioness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lioness.framework; path = "../../../Library/Developer/Xcode/DerivedData/Pixure-cgdlqshesrvljvcaumkelrnmbwqn/Build/Products/Release/Lioness.framework"; sourceTree = "<group>"; };
 		BE2055231F1D56AE0051EE97 /* Lioness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lioness.framework; path = "../../../Library/Developer/Xcode/DerivedData/SavannaKit-fyzqygnhrdukxucyxotmtknnxggx/Build/Products/Release/Lioness.framework"; sourceTree = "<group>"; };
@@ -218,6 +259,7 @@
 			children = (
 				BE42803C2038C3DA00C8FE24 /* TextViewWrapperView.swift */,
 				BE71CB851F125D0400C6B93E /* InnerTextView.swift */,
+				2C4FD0BF277BCEBF00443D72 /* InnerTextView+MultiLineEditing.swift */,
 				BE99F5FA1F07E6240076CDEF /* SyntaxTextView.swift */,
 				BE4280372038C38900C8FE24 /* SyntaxTextView+TextViewDelegate.swift */,
 				BE42803A2038C3AA00C8FE24 /* Paragraphs.swift */,
@@ -475,6 +517,7 @@
 				BE99F6091F07E6240076CDEF /* Types.swift in Sources */,
 				BE4280392038C38E00C8FE24 /* SyntaxTextView+TextViewDelegate.swift in Sources */,
 				BE99F6051F07E6240076CDEF /* SyntaxColorTheme.swift in Sources */,
+				2C4FD0C0277BCEBF00443D72 /* InnerTextView+MultiLineEditing.swift in Sources */,
 				BEE5D94F2027897A0040C72A /* Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

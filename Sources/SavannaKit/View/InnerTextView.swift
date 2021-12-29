@@ -25,8 +25,36 @@ final class InnerTextView: NSTextView {
 	
 	var cachedParagraphs: [Paragraph]?
     
+<<<<<<< Updated upstream
     var autocompleteWords: [String]?
 	
+=======
+    // Multiline Select
+    var startIndex = 0
+    
+    // /
+    
+    override func menu(for event: NSEvent) -> NSMenu? {
+        let menu = super.menu(for: event)
+        
+        let bannedItems = [
+            "changeLayoutOrientation:",
+            "replaceQuotesInSelection:",
+            "toggleAutomaticQuoteSubstitution:",
+            "orderFrontFontPanel:"
+        ]
+        
+        // This is a mess.
+        menu?.items = menu?.items.filter { menuItem in
+            return !(menuItem.submenu?.items.contains { item in
+                    return bannedItems.contains(item.action?.description ?? "")
+                } ?? false)
+        } ?? []
+        
+        return menu
+    }
+    
+>>>>>>> Stashed changes
 	func invalidateCachedParagraphs() {
 		cachedParagraphs = nil
 	}
