@@ -1,3 +1,9 @@
+This repository is deprecated. Work on this library now happens in https://github.com/IvanMathy/savannakit
+
+
+
+
+
 This repository is a fork of louisdh's SavannaKit. It is built to be the editor within <a href="https://github.com/ivanmathy/Boop">Boop</a>. This repository is not intended to be a successor or replacement to the original; simply a fork that fits Boop's needs.
 
 Overall, this fork has the following changes:
