@@ -23,7 +23,9 @@ class MacViewController: NSViewController {
         
         syntaxTextView.text = """
         This is an example of SavannaKit.
-        This example highlights words that are longer than 6 characters in red.
+        Sorry about the mess around here, this is more testing grounds for my attempted upgrades than an actual sample app.
+        Also I need a few more lines to test multiline editing.
+        How are you doing? Feel free to reach out if you need.
         """
         
     }

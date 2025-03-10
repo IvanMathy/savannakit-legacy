@@ -18,10 +18,21 @@ protocol InnerTextViewDelegate: class {
 final class InnerTextView: NSTextView {
 
 	weak var innerDelegate: InnerTextViewDelegate?
-	
 	var theme: SyntaxColorTheme?
-	
 	var cachedParagraphs: [Paragraph]?
+    
+    // Multiline Editing
+    
+    var startIndex: Int?
+    var startPoint: CGPoint?
+    
+    var insertionRanges: [NSRange]? {
+        didSet {
+            didSetInsertionRanges()
+        }
+    }
+    var cursorBlinkTimer: Timer?
+    var shouldDrawInsertionPoints = false
     
     override func menu(for event: NSEvent) -> NSMenu? {
         let menu = super.menu(for: event)
